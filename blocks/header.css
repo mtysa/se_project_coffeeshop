@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  left: -50px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  margin: 8px 0 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav__link {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 183px 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 646px;
+  max-height: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+  z-index: 1;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
