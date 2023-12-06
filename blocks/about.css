@@ -13,7 +13,7 @@
 
 .about {
   background-color: #0a2850;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -34,7 +34,6 @@
 
 .about__content {
   max-width: 660px;
-  margin-top: 9px;
   color: #fff;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -44,8 +43,8 @@
   gap: 20px;
 }
 
-.about__paragraph:last-child {
-  margin-bottom: 73px;
+.about__paragraph {
+  margin: 9px 0 20px;
 }
 
 .about__circle {
@@ -59,12 +58,5 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out infinite;
 }

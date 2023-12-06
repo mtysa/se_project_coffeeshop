@@ -9,18 +9,20 @@
 }
 
 .footer__content {
-  margin-bottom: 108px;
+  margin: 0 0 108px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__social {
   text-align: center;
+  margin: 0;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer__social-link {
@@ -39,7 +41,11 @@
 }
 
 .footer__list-item {
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__social-heading {
@@ -49,13 +55,13 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  margin: 0 10px 0 0;
 }
 
 .footer__copyright {
@@ -65,4 +71,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }

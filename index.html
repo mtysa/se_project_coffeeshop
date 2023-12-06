@@ -11,8 +11,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
@@ -109,6 +107,7 @@
                 id="name"
                 name="name"
                 placeholder="Name Surname"
+                required
               />
               <label for="number-of-guests" class="form__label"
                 >Number of guests *</label
@@ -120,15 +119,22 @@
                 min="1"
                 max="8"
                 placeholder="1-8"
+                required
               />
               <label for="date" class="form__label">Date & time *</label>
-              <input type="datetime-local" class="form__input" id="date" />
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                required
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 class="form__input"
                 id="email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
@@ -138,6 +144,7 @@
                 class="form__checkbox"
                 name="terms"
                 id="terms"
+                required
               />I agree with the terms of use</label
             >
           </form>
